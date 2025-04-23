@@ -221,7 +221,8 @@ ExecStart=$(which drosera-operator) node --db-file-path $HOME/.drosera.db --netw
 [Install]
 WantedBy=multi-user.target
 ```
-* if you run on local network-external-p2p-address 0.0.0.0.
+* if you run on local network-external-p2p-address 0.0.0.0
+
 Start service:
 ```bash
 sudo systemctl daemon-reload
