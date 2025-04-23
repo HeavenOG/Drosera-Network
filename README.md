@@ -211,7 +211,7 @@ After=network-online.target
 User=$USER
 Restart=always
 ExecStart=$(which drosera-operator) node --db-file-path $HOME/.drosera.db --network-p2p-port 31313 --server-port 31314 \
-    --eth-rpc-url https://ethereum-holesky-rpc.publicnode.com \
+    --eth-rpc-url https://eth-holesky.g.alchemy.com/v2/your-api-key \
     --eth-private-key your_private_key \
     --drosera-address 0xea08f7d533C2b9A62F40D5326214f39a8E3A32F8 \
     --listen-address 0.0.0.0 \
