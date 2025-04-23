@@ -99,6 +99,7 @@ bun install
 forge build
 ```
 * Ignore build warnings.
+
 Deploy Trap:
 ```bash
 DROSERA_PRIVATE_KEY=your_private_key drosera apply
