@@ -1,4 +1,4 @@
-🚀 Drosera Network - Node Installation & Operation Guide
+# 🚀 Drosera Network - Node Installation & Operation Guide
 
 * This guide walks you through installing and running a node for Drosera Network.
 
@@ -117,7 +117,7 @@ DROSERA_PRIVATE_KEY=your_private_key drosera apply
 ```bash
 drosera dryrun
 ```
-🛠️ Operator Setup
+# 🛠️ Operator Setup
 # 1. Whitelist Operator
 Edit config file:
 ```bash
