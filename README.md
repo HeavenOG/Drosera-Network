@@ -204,6 +204,7 @@ sudo nano /etc/systemd/system/drosera.service
 ```
 Paste content:
 ```bash
+sudo tee /etc/systemd/system/drosera.service > /dev/null <<EOF
 [Unit]
 Description=Drosera Node
 After=network-online.target
