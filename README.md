@@ -238,9 +238,11 @@ journalctl -u drosera.service -f
 
 LOG ISSUE:
 * if you see this log its mean Drosera rpc is down, don't wory it will be fix by team soon now you need to patient and follow Drosera discord to see annoucements.
+
 ![image](https://github.com/user-attachments/assets/c1c687f1-2938-4ac5-bea0-623e901966a0)
 
 * if you see all of red block its mean your port are not working well or your ip you put in drosera.toml is wrong.
+
 ![image](https://github.com/user-attachments/assets/520f55db-af50-414e-8b08-e343fe81f19b)
 
 
