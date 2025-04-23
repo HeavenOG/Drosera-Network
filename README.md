@@ -148,6 +148,7 @@ whitelist = ["your_wallet_address"]
 external_p2p_address = "your_vps_ip"
 ```
 * if you run on local put external_p2p_address = "0.0.0.0"
+
 Reapply trap config:
 ```bash
 DROSERA_PRIVATE_KEY=your_private_key drosera apply
