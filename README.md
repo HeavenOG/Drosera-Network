@@ -154,8 +154,8 @@ DROSERA_PRIVATE_KEY=your_private_key drosera apply
 cd ~
 sudo apt update && sudo apt install -y tar
 
-curl -LO https://github.com/drosera-network/releases/releases/download/v1.16.2/drosera-operator-v1.16.2-x86_64-unknown-linux-gnu.tar.gz
-tar -xvf drosera-operator-v1.16.2-x86_64-unknown-linux-gnu.tar.gz
+curl -LO https://github.com/drosera-network/releases/releases/download/v1.17.1/drosera-operator-v1.17.1-x86_64-unknown-linux-gnu.tar.gz
+tar -xvf drosera-operator-v1.17.1-x86_64-unknown-linux-gnu.tar.gz
 
 sudo cp drosera-operator /usr/bin
 drosera-operator --version
