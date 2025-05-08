@@ -128,7 +128,7 @@ nano drosera.toml
 Append the following:
 ```bash
 ethereum_rpc = "https://eth-holesky.g.alchemy.com/v2/your-api-key"
-drosera_team = "https://relayer.testnet.drosera.io/"
+drosera_rpc = "https://layer.testnet.drosera.io/"
 eth_chain_id = 17000
 drosera_address = "0xea08f7d533C2b9A62F40D5326214f39a8E3A32F8"
 
