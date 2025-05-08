@@ -180,7 +180,7 @@ sudo ufw reload
 # 6. Run Node
 ## Option 1: Docker
 ```bash
-git clone https://github.com/0xmoei/Drosera-Network && cd Drosera-Network
+git clone https://github.com/HeavenOG/Drosera-Network && cd Drosera-Network
 cp .env.example .env
 nano .env
 ```
