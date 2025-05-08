@@ -128,7 +128,7 @@ nano drosera.toml
 Append the following:
 ```bash
 ethereum_rpc = "https://eth-holesky.g.alchemy.com/v2/your-api-key"
-drosera_rpc = "https://seed-node.testnet.drosera.io"
+drosera_team = "https://relayer.testnet.drosera.io/"
 eth_chain_id = 17000
 drosera_address = "0xea08f7d533C2b9A62F40D5326214f39a8E3A32F8"
 
@@ -143,11 +143,7 @@ block_sample_size = 10
 private_trap = true
 address = "generated after dryrun"
 whitelist = ["your_wallet_address"]
-
-[network]
-external_p2p_address = "your_vps_ip"
 ```
-* if you run on local put external_p2p_address = "0.0.0.0"
 
 Reapply trap config:
 ```bash
@@ -189,6 +185,13 @@ cp .env.example .env
 nano .env
 ```
 Update .env with private key and VPS IP
+
+edit and replace your rpc in:
+```bash
+nano docker-compose.yaml
+```
+
+RUN NODE:
 ```bash
 docker compose up -d
 docker logs -f drosera-node
