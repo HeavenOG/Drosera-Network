@@ -147,7 +147,7 @@ whitelist = ["your_wallet_address"]
 * Update the `drosera_rpc` in the file:
     Replace if you get command not found:
     ```toml
-    drosera_rpc = "[http://seed-node.testnet.drosera.io](https://layer.testnet.drosera.io/)"
+    drosera_rpc = "https://layer.testnet.drosera.io/"
     ```
     With:
     ```toml
