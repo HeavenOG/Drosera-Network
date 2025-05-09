@@ -171,10 +171,13 @@ drosera-operator register --eth-rpc-url https://eth-holesky.g.alchemy.com/v2/you
 # 5. Open Firewall Ports
 ```bash
 sudo ufw allow ssh
-sudo ufw enable
-sudo ufw allow 22
+sudo ufw allow 22/tcp
+sudo ufw allow 22/udp
 sudo ufw allow 31313/tcp
+sudo ufw allow 31313/udp
 sudo ufw allow 31314/tcp
+sudo ufw allow 31314/udp
+sudo ufw enable
 sudo ufw reload
 ```
 # 6. Run Node
