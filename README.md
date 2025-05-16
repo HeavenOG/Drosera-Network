@@ -125,7 +125,7 @@ cd ~
 cd my-drosera-trap
 nano drosera.toml
 ```
-Append the following:
+Append the following (the example you need to change to your toml file):
 ```bash
 ethereum_rpc = "https://eth-holesky.g.alchemy.com/v2/your-api-key"
 drosera_rpc = "https://relay.testnet.drosera.io"
@@ -141,8 +141,8 @@ min_number_of_operators = 1
 max_number_of_operators = 2
 block_sample_size = 10
 private_trap = true
-address = "generated after dryrun"
-whitelist = ["your_wallet_address"]
+address = "this is your trap anddress" // can take it in app.drosera.io -> login -> click trap owner its address trap config
+whitelist = ["your_EVM_wallet_address"]
 ```
     
 
